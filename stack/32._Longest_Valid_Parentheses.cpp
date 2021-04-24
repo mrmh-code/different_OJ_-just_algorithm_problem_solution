@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-/***********this proble link: https://leetcode.com/problems/longest-valid-parentheses/*/
+/***********this problem link: https://leetcode.com/problems/longest-valid-parentheses/*/
 
 //Time Complexity O(n)
 int  isLongValid(string A)
