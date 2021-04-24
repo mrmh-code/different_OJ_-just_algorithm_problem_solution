@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stack>
 using namespace std;
+/***********this proble link: https://leetcode.com/problems/longest-valid-parentheses/*/
+
 //Time Complexity O(n)
 int  isLongValid(string A)
 {
@@ -18,6 +20,7 @@ int  isLongValid(string A)
                         s.push(i);
                     }else{
                         MaxL=max(MaxL,(i-s.top()));//top index division top stack then final result.
+                         
                     }
                     
                 }
