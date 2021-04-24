@@ -2,6 +2,8 @@
 #include <stack>
 using namespace std;
 
+/**************this problem link:https://leetcode.com/problems/valid-parentheses/*/
+
 class Solution {
 public:
     bool isValid(string A) {
